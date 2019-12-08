@@ -1,0 +1,57 @@
+/*.footer {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    background-color: rgba(0,0,0,0.2);*/
+/*    text-align: center;*/
+/*    color: #e8e8e8;*/
+/*}*/
+
+/*.footer img.zhiyuan {*/
+/*    width: 100%;*/
+/*}*/
+
+/*.footer img.background {*/
+/*    width: 100%;*/
+/*    position: absolute;*/
+/*    z-index: 0;*/
+/*}*/
+
+/*.footer .logo img{*/
+/*    width: 100px;*/
+/*    float: left;*/
+/*    bottom: 10px;*/
+/*    position: absolute;*/
+/*    z-index: 5;*/
+/*}*/
+
+/*.footer .info {*/
+/*    position: absolute;*/
+/*    z-index: 5;*/
+/*}*/
+
+.footer {
+    width: 100%;
+    display: block;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.2);
+    text-align: center;
+    color: #e8e8e8;
+}
+
+.footer img.zhiyuan {
+    width: 100%;
+}
+
+
+.footer .logo img{
+    width: 100px;
+    float: left;
+    bottom: 10px;
+    position: absolute;
+    z-index: 5;
+}
+
+.footer .info {
+    position: absolute;
+    z-index: 5;
+}
