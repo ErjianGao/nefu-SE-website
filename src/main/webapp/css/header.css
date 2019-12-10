@@ -21,11 +21,21 @@ body {
 }
 
 /*logo*/
+.navwrapper .logo {
+    display: flex;
+}
+
 .navwrapper .logo img {
-    margin: 50px 70px;
+    margin: 50px 0;
+    margin-left: 50px;
     height: 70px;
     justify-content: center;
     align-items: center;
+}
+
+.navwrapper .logo .solfware-img {
+    margin-top: 45px;
+    margin-left: 0;
 }
 
 /*导航*/
@@ -63,13 +73,11 @@ body {
 /*主导航*/
 .header .navwrapper .mainnav {
     display: flex;
+    padding: 0 20px;
     margin: 20px 10px;
-}
-
-
-.header .navwrapper .mainnav{
-    display: flex;
     font-size: 18px;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 
@@ -81,7 +89,7 @@ body {
 }
 
 .dropdown ul li a:hover {
-    background: #e8e8e8;
+    background: rgba(232, 232, 232, 0.85);
 }
 
 
@@ -102,10 +110,11 @@ body {
     padding: 0;
     /*下拉内容不占据空间*/
     display: none;
+    opacity: 80%;
 }
 .dropdown:hover > a{
-    color: #00c292;
-    background-color: white;
+    color: rgb(0, 194, 146);
+    background-color: rgba(255, 255, 255, 0.85);
     border-top: 4px solid #00c292;
 }
 
