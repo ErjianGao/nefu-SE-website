@@ -74,7 +74,7 @@ body {
 .header .navwrapper .mainnav {
     display: flex;
     padding: 0 20px;
-    margin: 20px 10px;
+    margin: 15px 10px;
     font-size: 18px;
     flex-direction: row;
     justify-content: space-between;
@@ -82,9 +82,9 @@ body {
 
 
 .dropdown>a{
+    display: block;
     text-decoration: none;
     color: white;
-    width: 70px;
     padding: 15px 25px;
 }
 
@@ -105,7 +105,7 @@ body {
     /*基于下拉容器的绝对定位,可以覆盖在其他内容之上*/
     border-radius: 0;
     position: absolute;
-    top: 39px;
+    top: 59px;
     left: -1px;
     padding: 0;
     /*下拉内容不占据空间*/
@@ -118,9 +118,9 @@ body {
     border-top: 4px solid #00c292;
 }
 
-.dropdown:hover .dropdown-menu {
-    display: block;
-}
+/*.dropdown:hover .dropdown-menu {*/
+/*    display: block;*/
+/*}*/
 
 .dropdown-menu a {
     display: block;
