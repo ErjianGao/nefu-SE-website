@@ -1,13 +1,20 @@
 package com.entity;
 
+import java.sql.Timestamp;
 import java.util.Date;
 
 public class Manager {
     private int id;
     private String userName;
     private String password;
-    private String insertTime;
-    private Date lastLoginTime;
+    private Timestamp insertTime;
+
+    public Manager(int id, String userName, String password, Timestamp insertTime) {
+        this.id = id;
+        this.userName = userName;
+        this.password = password;
+        this.insertTime = insertTime;
+    }
 
     public int getId() {
         return id;
@@ -33,19 +40,11 @@ public class Manager {
         this.userName = userName;
     }
 
-    public String getInsertTime() {
+    public Timestamp getInsertTime() {
         return insertTime;
     }
 
-    public void setInsertTime(String insertTime) {
+    public void setInsertTime(Timestamp insertTime) {
         this.insertTime = insertTime;
-    }
-
-    public Date getLastLoginTime() {
-        return lastLoginTime;
-    }
-
-    public void setLastLoginTime(Date lastLoginTime) {
-        this.lastLoginTime = lastLoginTime;
     }
 }
