@@ -21,7 +21,7 @@
         <input name="pwd" type="password">
     </label><br>
     <button type="submit">登录</button>
-    <button type="button"><a href="/index">返回</a></button>
+    <button type="button"><a href="/register">注册</a></button>
 </form>
 </body>
 </html>
