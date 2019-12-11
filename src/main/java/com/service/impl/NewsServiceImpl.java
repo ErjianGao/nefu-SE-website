@@ -34,13 +34,12 @@ public class NewsServiceImpl implements NewsService {
 
     @Override
     public void addNews(News news) {
-        String sql = "INSERT INTO news(id, title, author, content, inserttime) VALUES(?,?,?,?,?)";
+        String sql = "INSERT INTO news(title, author, content) VALUES(?,?,?)";
         try(Connection conn = DataSourceUtils.getConnection();
             PreparedStatement st = conn.prepareStatement(sql)) {
-            st.setInt(1, news.getId());
-            st.setString(2,news.getTitle());
-            st.setString(3,news.getAuthor());
-            st.setTimestamp(5,news.getInsertTime());
+            st.setString(1,news.getTitle());
+            st.setString(2,news.getAuthor());
+            st.setString(3,news.getContent());
             st.executeUpdate();
         }catch (SQLException e) {
             logger.warning(e.getMessage());
