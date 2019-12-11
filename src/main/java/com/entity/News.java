@@ -1,5 +1,6 @@
 package com.entity;
 
+import java.sql.Timestamp;
 import java.util.Date;
 
 public class News {
@@ -7,7 +8,15 @@ public class News {
     private String title;
     private String author;
     private String content;
-    private Date insertTime;
+    private Timestamp insertTime;
+
+    public News(int id, String title, String author, String content, Timestamp insertTime) {
+        this.id = id;
+        this.title = title;
+        this.author = author;
+        this.content = content;
+        this.insertTime = insertTime;
+    }
 
     public int getId() {
         return id;
@@ -41,11 +50,11 @@ public class News {
         this.content = content;
     }
 
-    public Date getInsertTime() {
+    public Timestamp getInsertTime() {
         return insertTime;
     }
 
-    public void setInsertTime(Date insertTime) {
+    public void setInsertTime(Timestamp insertTime) {
         this.insertTime = insertTime;
     }
 }
