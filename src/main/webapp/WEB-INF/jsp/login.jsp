@@ -15,12 +15,13 @@
     账号：
     <label>
         <input name="username" type="text">
-    </label>
+    </label><br>
     密码：
     <label>
         <input name="pwd" type="password">
-    </label>
+    </label><br>
     <button type="submit">登录</button>
+    <button type="button"><a href="/index">返回</a></button>
 </form>
 </body>
 </html>

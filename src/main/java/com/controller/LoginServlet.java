@@ -13,7 +13,6 @@ import java.io.IOException;
 public class LoginServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        System.out.println("jinru");
         String userName = req.getParameter("username");
         String password = req.getParameter("pwd");
         String url;
