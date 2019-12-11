@@ -1,27 +1,20 @@
 package com.entity;
 
-import javax.xml.crypto.Data;
+import java.util.Date;
 
 public class Manager {
-    private int name;
+    private int id;
     private String userName;
     private String password;
-    private Data loginTime;
+    private String insertTime;
+    private Date lastLoginTime;
 
     public int getId() {
-        return name;
+        return id;
     }
 
-    public void setName(int name) {
-        this.name = name;
-    }
-
-    public String getuserName() {
-        return userName;
-    }
-
-    public void setuserName(String userName) {
-        this.userName = userName;
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getPassword() {
@@ -32,11 +25,27 @@ public class Manager {
         this.password = password;
     }
 
-    public Data getLoginTime() {
-        return loginTime;
+    public String getUserName() {
+        return userName;
     }
 
-    public void setLoginTime(Data loginTime) {
-        this.loginTime = loginTime;
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
+    public String getInsertTime() {
+        return insertTime;
+    }
+
+    public void setInsertTime(String insertTime) {
+        this.insertTime = insertTime;
+    }
+
+    public Date getLastLoginTime() {
+        return lastLoginTime;
+    }
+
+    public void setLastLoginTime(Date lastLoginTime) {
+        this.lastLoginTime = lastLoginTime;
     }
 }
