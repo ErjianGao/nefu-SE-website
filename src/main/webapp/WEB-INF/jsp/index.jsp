@@ -80,7 +80,7 @@
                     <a href="">新闻公告</a>
                 </div>
                 <div class="dropdown">
-                    <a href="">管理员登录</a>
+                    <a href="/login">管理员登录</a>
                 </div>
             </div>
         </div>
