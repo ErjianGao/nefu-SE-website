@@ -24,7 +24,7 @@
     <label>
         <input id="input-again" name="pwd-again" type="password">
     </label><br>
-    <a href="/register"><button id="register" type="button" disabled>注册</button></a>
+    <a href="/register"><button id="register" type="submit" disabled>注册</button></a>
     <a href="/login"><button type="button">返回</button></a>
 </form>
 </body>
