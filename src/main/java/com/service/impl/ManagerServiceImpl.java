@@ -34,12 +34,12 @@ public class ManagerServiceImpl implements ManagerService {
     }
 
     @Override
-    public void addManager(Manager manager) {
+    public void addManager(String userName, String password) {
         String sql = "INSERT INTO manager(username, password) VALUES(?,?)";
         try(Connection conn = DataSourceUtils.getConnection();
             PreparedStatement st = conn.prepareStatement(sql)) {
-            st.setString(1,manager.getUserName());
-            st.setString(2,manager.getPassword());
+            st.setString(1,userName);
+            st.setString(2,password);
             st.executeUpdate();
         }catch (SQLException e) {
             logger.warning(e.getMessage());

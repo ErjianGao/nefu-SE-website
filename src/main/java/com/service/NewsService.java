@@ -12,9 +12,9 @@ public interface NewsService {
     public List<News> listNewss();
     /**
      * 添加新闻
-     * @param news
+     * @param
      */
-    public void addNews(News news);
+    public void addNews(String title, String author, String content);
     /**
      * 更新新闻
      * @param news

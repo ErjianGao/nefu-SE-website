@@ -12,9 +12,9 @@ public interface ManagerService {
     public List<Manager> listManagers();
     /**
      * 添加管理员
-     * @param manager
+     * @param
      */
-    public void addManager(Manager manager);
+    public void addManager(String userName, String password);
     /**
      * 更新管理员
      * @param manager
