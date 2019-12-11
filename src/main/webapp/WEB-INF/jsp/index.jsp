@@ -59,14 +59,10 @@
                     <a href="">专业介绍</a>
                 </div>
                 <div class="dropdown">
-                    <a href="">实验室</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="">923 创新实验室</a></li>
-                        <li><a href="">925 移动开发实验室</a></li>
-                    </ul>
+                    <a href="" target="_blank">新闻公告</a>
                 </div>
                 <div class="dropdown">
-                    <a href="">教师队伍</a>
+                    <a href="" target="_blank">教师队伍</a>
                     <ul class="dropdown-menu">
                         <li><a href="">教授</a></li>
                         <li><a href="">副教授</a></li>
@@ -74,13 +70,17 @@
                     </ul>
                 </div>
                 <div class="dropdown">
-                    <a href="">就业指南</a>
+                    <a href="" target="_blank">实验室</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="">923 创新实验室</a></li>
+                        <li><a href="">925 移动开发实验室</a></li>
+                    </ul>
                 </div>
                 <div class="dropdown">
-                    <a href="">新闻公告</a>
+                    <a href="" target="_blank">就业指南</a>
                 </div>
                 <div class="dropdown">
-                    <a href="/login">管理员登录</a>
+                    <a href="/login" target="_blank">管理员登录</a>
                 </div>
             </div>
         </div>
@@ -94,7 +94,7 @@
             <li data-target="#demo" data-slide-to="0" class="active"></li>
             <li data-target="#demo" data-slide-to="1"></li>
             <li data-target="#demo" data-slide-to="2"></li>
-            <li data-target="#demo" data-slide-to="3"></li>
+            <%--<li data-target="#demo" data-slide-to="3"></li>--%>
         </ul>
 
         <!-- 轮播图片 -->
@@ -108,9 +108,9 @@
             <div class="carousel-item">
                 <img src="../../resources/images/主楼夜景.jpeg" alt="主楼">
             </div>
-            <div class="carousel-item">
-                <img src="../../resources/images/丹青楼.jpeg" alt="丹青">
-            </div>
+            <%--<div class="carousel-item">--%>
+            <%--    <img src="../../resources/images/丹青楼.jpeg" alt="丹青">--%>
+            <%--</div>--%>
         </div>
 
         <!-- 左右切换按钮 -->
