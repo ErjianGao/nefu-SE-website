@@ -1,10 +1,9 @@
 package com.service.impl;
 
-import com.Util.DataSourceUtils;
+import com.util.DataSourceUtils;
 import com.entity.Manager;
 import com.service.ManagerService;
 
-import javax.sql.DataSource;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
