@@ -10,7 +10,7 @@
         height: 127px;
         padding: 0 60px;
         display: flex;
-        background-color: #009e78;
+        background-color: #00785a;
     }
 
     .footer img {

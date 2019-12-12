@@ -15,12 +15,13 @@
 
     .logo {
         padding: 25px 120px;
+        background-color: rgba(0,0,0,0.2);
     }
 
     /*主导航*/
     .header .navwrapper .mainnav {
         display: flex;
-        background-color: #009e78;
+        background-color: #00785a;
         font-size: 1.2rem;
         flex-direction: row;
         justify-content: left;
