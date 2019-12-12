@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*subpage布局*/
+aside {
+    grid-area: aside;
+}
+
+article {
+    grid-area: article;
+}
+
+.subpage {
+    margin: 0 80px;
+    display: grid;
+    grid-template-columns: 1.3fr 4fr;
+    grid-gap: 80px;
+    grid-template-areas:"aside article";
+}
+/*布局完毕*/
+
+/*侧边栏样式*/
+aside {
+    text-align: center;
+}
+
+aside .sidebar {
+    border: 1.5px solid #009e78;
+}
+
+aside .nav-title {
+    font-size: 20px;
+    color: white;
+    background-color: #009e78;
+    padding: 40px 60px;
+    transition-duration: 200ms;
+}
+
+aside .nav-title:hover {
+    opacity: 80%;
+}
+
+.nav-content ul li {
+    list-style-type: none;
+}
+
+.nav-content ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    font-size: 20px;
+    border-bottom: 1.5px solid #dddddd;
+}
+
+.nav-content ul li a:hover {
+    font-weight: bolder;
+    color: #009e78;
+}
+
+/*侧边栏样式完毕*/
+
+/*文章样式*/
+article {
+    margin: 50px 80px 150px 0;
+}
+
+article h2 {
+    width: 100%;
+    text-align: center;
+    color: #009e78;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 15px 0;
+}
+
+article h3 {
+    margin-top: 20px;
+    padding: 0;
+    outline: none;
+    -webkit-font-smoothing: antialiased;
+    font-size: 22px;
+    font-family: 微软雅黑, Microsoft YaHei, serif;
+    color: rgb(0, 112, 192);
+}
+
+article p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 0;
+    outline: none;
+    -webkit-font-smoothing: antialiased;
+    color: rgb(102, 102, 102);
+    font-family: "Microsoft YaHei", 微软雅黑, serif;
+    font-size: 20px;
+    white-space: normal;
+    background-color: rgb(255, 255, 255);
+    line-height: 2em;
+}
+/*文章样式结束*/
+
+/*全局list不加样式*/
+li {
+    list-style: none;
+}
+
+
