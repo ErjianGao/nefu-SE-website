@@ -107,11 +107,11 @@
                     <a href="" target="_blank">新闻公告</a>
                 </div>
                 <div class="dropdown">
-                    <a href="" target="_blank">教师队伍</a>
+                    <a href="/professor" target="_blank">教师队伍</a>
                     <ul class="dropdown-menu">
-                        <li><a href="">教授</a></li>
-                        <li><a href="">副教授</a></li>
-                        <li><a href="">讲师</a></li>
+                        <li><a href="/professor">教授</a></li>
+                        <li><a href="/associate-professor">副教授</a></li>
+                        <li><a href="/lecturer">讲师</a></li>
                     </ul>
                 </div>
                 <div class="dropdown">

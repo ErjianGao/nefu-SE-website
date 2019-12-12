@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*teacher-list 样式*/
+.teacher-list ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.teacher-list li {
+    width: 250px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    position: relative;
+}
+
+.teacher-list li a {
+    text-decoration: none;
+}
+
+.teacher-list li .pic {
+    margin: 0 auto;
+    width: 70%;
+    border-radius: 50%;
+}
+
+.teacher-list li img {
+    width: 100%;
+    border-radius: 50%;
+}
+/*teacher-list 样式结束*/
