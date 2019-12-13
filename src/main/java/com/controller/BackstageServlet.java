@@ -12,6 +12,6 @@ import java.io.IOException;
 public class BackstageServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.getRequestDispatcher("/WEB-INF/jsp/backstage-manage.jsp").forward(req,resp);
+        req.getRequestDispatcher("/WEB-INF/jsp/backstage/backstage-manage.jsp").forward(req,resp);
     }
 }
