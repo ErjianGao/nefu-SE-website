@@ -56,6 +56,7 @@
     .dropdown .dropdown-menu {
         /*基于下拉容器的绝对定位,可以覆盖在其他内容之上*/
         border-radius: 0;
+        z-index: 1000;
         position: absolute;
         left: -1px;
         padding: 0;
