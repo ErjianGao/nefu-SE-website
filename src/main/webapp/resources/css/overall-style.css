@@ -65,7 +65,7 @@ aside .nav-title:hover {
 
 /*文章样式*/
 article {
-    margin: 50px 80px 150px 0;
+    margin: 50px 80px 100px 0;
 }
 
 article h2 {
@@ -108,4 +108,12 @@ li {
     list-style: none;
 }
 
+/*全局背景*/
+.content {
+    background: url(../images/footer-bg-2019.png) no-repeat bottom center;
+    background-size: 100%;
+}
 
+.subpage {
+    padding-bottom: 200px;
+}

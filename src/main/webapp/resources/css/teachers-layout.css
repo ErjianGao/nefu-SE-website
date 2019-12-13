@@ -12,25 +12,78 @@
 }
 
 .teacher-list li {
-    width: 250px;
+    margin-top: 60px;
     margin-right: 50px;
     margin-bottom: 40px;
     padding-top: 40px;
     position: relative;
 }
 
+/*将a设置成blcok级，将li撑起来*/
 .teacher-list li a {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    display: block;
+    border: 1px solid #e5e5e5;
     text-decoration: none;
+    background: url(../images/people02.png) no-repeat bottom center;
+    transition: 0.6s;
 }
 
-.teacher-list li .pic {
+
+/*设置图像的位置*/
+.teacher-list li .pic img {
+    position: absolute;
+    top: -25%;
     margin: 0 auto;
-    width: 70%;
+    width: 50%;
+    left: 63px;
     border-radius: 50%;
+    transition-duration: 0.5s;
 }
 
 .teacher-list li img {
+    
     width: 100%;
     border-radius: 50%;
+}
+
+.teacher-list li .teacher-title {
+    text-align: center;
+    padding: 90px 40px 40px 38px;
+}
+
+.teacher-title h4 {
+    color: #00785a;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.teacher-title p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #777777;
+    text-align: center;
+}
+
+.teacher-list li a:hover {
+    background: #00785a url(../images/people02-on.png) no-repeat bottom center;;
+    border: 1px solid white;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.teacher-list li a:hover h4 {
+    color: #ffffff;
+}
+
+.teacher-list li a:hover p {
+    color: #ffffff;
+}
+
+.teacher-list li a:hover img {
+    transform: scale(1.1);
 }
 /*teacher-list 样式结束*/

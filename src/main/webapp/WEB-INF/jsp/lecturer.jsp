@@ -24,77 +24,57 @@
 <body>
 <div class="container">
     <%@include file="/WEB-INF/jsp/common/header.jsp"%>
-    <div class="subpage">
-        <%@include file="/WEB-INF/jsp/common/teachers-sidebar.jsp"%>
-        <div class="teacher-list">
-            <ul>
-                <li>
-                    <a href="/lili" target="_blank" title="李莉">
-                        <div class="pic">
-                            <img src="../../resources/images/sujianmin.jpg" alt="苏建民">
-                        </div>
-                        <div class="teacher-title">
-                            <h4>苏建民</h4>
-                            <p>苏健民，教授，硕士，硕士生导师，软件工程一级学科带头人...</p>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="/lili" target="_blank" title="李莉">
-                        <div class="pic">
-                            <img src="../../resources/images/sujianmin.jpg" alt="苏建民">
-                        </div>
-                        <div class="teacher-title">
-                            <h4>苏建民</h4>
-                            <p>苏健民，教授，硕士，硕士生导师，软件工程一级学科带头人...</p>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="/lili" target="_blank" title="李莉">
-                        <div class="pic">
-                            <img src="../../resources/images/sujianmin.jpg" alt="苏建民">
-                        </div>
-                        <div class="teacher-title">
-                            <h4>苏建民</h4>
-                            <p>苏健民，教授，硕士，硕士生导师，软件工程一级学科带头人...</p>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="/lili" target="_blank" title="李莉">
-                        <div class="pic">
-                            <img src="../../resources/images/sujianmin.jpg" alt="苏建民">
-                        </div>
-                        <div class="teacher-title">
-                            <h4>苏建民</h4>
-                            <p>苏健民，教授，硕士，硕士生导师，软件工程一级学科带头人...</p>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="/lili" target="_blank" title="李莉">
-                        <div class="pic">
-                            <img src="../../resources/images/sujianmin.jpg" alt="苏建民">
-                        </div>
-                        <div class="teacher-title">
-                            <h4>苏建民</h4>
-                            <p>苏健民，教授，硕士，硕士生导师，软件工程一级学科带头人...</p>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="/lili" target="_blank" title="李莉">
-                        <div class="pic">
-                            <img src="../../resources/images/sujianmin.jpg" alt="苏建民">
-                        </div>
-                        <div class="teacher-title">
-                            <h4>苏建民</h4>
-                            <p>苏健民，教授，硕士，硕士生导师，软件工程一级学科带头人...</p>
-                        </div>
-                    </a>
-                </li>
-            </ul>
+    <div class="content">
+        <div class="subpage">
+            <%@include file="/WEB-INF/jsp/common/teachers-sidebar.jsp"%>
+            <div class="teacher-list">
+                <ul>
+                    <li>
+                        <a href="/wangbo" target="_blank">
+                            <div class="pic">
+                                <img src="../../resources/images/wangbo.jpg" alt="王波">
+                            </div>
+                            <div class="teacher-title">
+                                <h4>王波</h4>
+                                <p>王波，讲师，硕士。主要研究方向：软件开发...</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/liyan" target="_blank">
+                            <div class="pic">
+                                <img src="../../resources/images/liyan.jpg" alt="李琰">
+                            </div>
+                            <div class="teacher-title">
+                                <h4>李琰</h4>
+                                <p>李琰，讲师，主要研究方向：软件工程，遥感和林业信息...</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/shanying" target="_blank">
+                            <div class="pic">
+                                <img src="../../resources/images/shanying.png" alt="单颖">
+                            </div>
+                            <div class="teacher-title">
+                                <h4>单颖</h4>
+                                <p>单颖，博士，讲师，主要研究方向：软件工程，林业信息...</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/bianjilong" target="_blank">
+                            <div class="pic">
+                                <img src="../../resources/images/bianjilong.jpg" alt="边继龙">
+                            </div>
+                            <div class="teacher-title">
+                                <h4>边继龙</h4>
+                                <p>边继龙，博士，讲师。主要研究方向：立体匹配、矢量地图压缩...</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
     <%@include file="/WEB-INF/jsp/common/footer.jsp"%>

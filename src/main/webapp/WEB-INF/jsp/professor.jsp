@@ -25,22 +25,24 @@
 <body>
 <div class="container">
     <%@include file="/WEB-INF/jsp/common/header.jsp"%>
-    <div class="subpage">
-        <%@include file="/WEB-INF/jsp/common/teachers-sidebar.jsp"%>
-        <div class="teacher-list">
-            <ul>
-                <li>
-                    <a href="/sujianmin" target="_blank" title="苏建民">
-                        <div class="pic">
-                            <img src="../../resources/images/sujianmin.jpg" alt="苏建民">
-                        </div>
-                        <div class="teacher-title">
-                            <h4>苏建民</h4>
-                            <p>苏健民，教授，硕士，硕士生导师，软件工程一级学科带头人...</p>
-                        </div>
-                    </a>
-                </li>
-            </ul>
+    <div class="content">
+        <div class="subpage">
+            <%@include file="/WEB-INF/jsp/common/teachers-sidebar.jsp"%>
+            <div class="teacher-list">
+                <ul>
+                    <li>
+                        <a href="/sujianmin" target="_blank" title="苏建民">
+                            <div class="pic">
+                                <img src="../../resources/images/sujianmin.jpg" alt="苏建民">
+                            </div>
+                            <div class="teacher-title">
+                                <h4>苏建民</h4>
+                                <p>苏健民，教授，硕士，硕士生导师，软件工程一级学科带头人...</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
     <%@include file="/WEB-INF/jsp/common/footer.jsp"%>
