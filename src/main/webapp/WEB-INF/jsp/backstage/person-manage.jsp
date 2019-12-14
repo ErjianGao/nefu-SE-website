@@ -75,7 +75,7 @@
                     </tr>
                     <tr>
                         <td>注册时间</td>
-                        <td>${manager.insertTime}</td>
+                        <td><fmt:formatDate value="${manager.insertTime}" pattern="yyyy-MM-dd HH:mm"/></td>
                     </tr>
                 </table>
                 <button><a href="/update-person">修改个人信息</a></button>
