@@ -16,7 +16,7 @@ public class NewsServiceImpl implements NewsService {
     private static Logger logger = Logger.getLogger(NewsServiceImpl.class.getName());
 
     @Override
-    public List<News> listNewss() {
+    public List<News> listNews() {
         List<News> newsList = new ArrayList<>();
         String sql = "SELECT * FROM news";
         try(Connection conn = DataSourceUtils.getConnection();

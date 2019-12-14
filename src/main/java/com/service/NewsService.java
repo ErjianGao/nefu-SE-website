@@ -9,7 +9,7 @@ public interface NewsService {
      * 查询全部新闻
      * @return
      */
-    public List<News> listNewss();
+    public List<News> listNews();
     /**
      * 添加新闻
      * @param
