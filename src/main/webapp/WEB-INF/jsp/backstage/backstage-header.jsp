@@ -114,10 +114,10 @@
                     <a href="/major-introduction">专业介绍</a>
                 </div>
                 <div class="dropdown">
-                    <a href="" target="_blank">新闻公告</a>
+                    <a href="/news-list">新闻公告</a>
                 </div>
                 <div class="dropdown">
-                    <a href="/professor" target="_blank">师资力量</a>
+                    <a href="/professor">师资力量</a>
                     <ul class="dropdown-menu">
                         <li><a href="/professor">教授</a></li>
                         <li><a href="/associate-professor">副教授</a></li>
@@ -125,14 +125,14 @@
                     </ul>
                 </div>
                 <div class="dropdown">
-                    <a class="lab" href="" target="_blank">实验室</a>
+                    <a href="/lab-923">实验室</a>
                     <ul class="dropdown-menu">
-                        <li><a href="">923 创新实验室</a></li>
-                        <li><a href="">925 移动开发实验室</a></li>
+                        <li><a href="/lab-923">923 创新实验室</a></li>
+                        <li><a href="/lab-925">925 移动开发实验室</a></li>
                     </ul>
                 </div>
                 <div class="dropdown">
-                    <a href="" target="_blank">就业指南</a>
+                    <a href="/employment-guide">就业指南</a>
                 </div>
                 <div class="dropdown">
                     <a href="/backstage" target="_blank">管理员入口</a>
