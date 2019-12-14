@@ -14,7 +14,9 @@
     <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../resources/css/header.css">
-    <link rel="stylesheet" href="../../resources/css/footer.css">
+    <link rel="stylesheet" href="../../resources/css/index-news.css">
+    <link href="https://cdn.bootcss.com/material-design-icons/3.0.1/iconfont/material-icons.css" rel="stylesheet">
+    <%--<link rel="stylesheet" href="../../resources/css/footer.css">--%>
     <style>
         body {
             display: flex;
@@ -59,7 +61,7 @@
                     <a href="/major-introduction">专业介绍</a>
                 </div>
                 <div class="dropdown">
-                    <a href="" target="_blank">新闻公告</a>
+                    <a href="/news-list" target="_blank">新闻公告</a>
                 </div>
                 <div class="dropdown">
                     <a href="/professor" target="_blank">教师队伍</a>
@@ -70,14 +72,14 @@
                     </ul>
                 </div>
                 <div class="dropdown">
-                    <a href="" target="_blank">实验室</a>
+                    <a href="/lab-923" target="_blank">实验室</a>
                     <ul class="dropdown-menu">
-                        <li><a href="">923 创新实验室</a></li>
-                        <li><a href="">925 移动开发实验室</a></li>
+                        <li><a href="/lab-923">923 创新实验室</a></li>
+                        <li><a href="/lab-925">925 移动开发实验室</a></li>
                     </ul>
                 </div>
                 <div class="dropdown">
-                    <a href="" target="_blank">就业指南</a>
+                    <a href="/employment-guide" target="_blank">就业指南</a>
                 </div>
                 <div class="dropdown">
                     <a href="/backstage" target="_blank">管理员入口</a>
@@ -90,12 +92,12 @@
     <div id="demo" class="carousel slide" data-ride="carousel">
 
         <!-- 指示符 -->
-        <ul class="carousel-indicators">
-            <li data-target="#demo" data-slide-to="0" class="active"></li>
-            <li data-target="#demo" data-slide-to="1"></li>
-            <li data-target="#demo" data-slide-to="2"></li>
-            <%--<li data-target="#demo" data-slide-to="3"></li>--%>
-        </ul>
+        <%--<ul class="carousel-indicators">--%>
+        <%--    <li data-target="#demo" data-slide-to="0" class="active"></li>--%>
+        <%--    <li data-target="#demo" data-slide-to="1"></li>--%>
+        <%--    <li data-target="#demo" data-slide-to="2"></li>--%>
+        <%--    &lt;%&ndash;<li data-target="#demo" data-slide-to="3"></li>&ndash;%&gt;--%>
+        <%--</ul>--%>
 
         <!-- 轮播图片 -->
         <div class="carousel-inner">
@@ -114,36 +116,30 @@
         </div>
 
         <!-- 左右切换按钮 -->
-        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#demo" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </a>
+        <%--<a class="carousel-control-prev" href="#demo" data-slide="prev">--%>
+        <%--    <span class="carousel-control-prev-icon"></span>--%>
+        <%--</a>--%>
+        <%--<a class="carousel-control-next" href="#demo" data-slide="next">--%>
+        <%--    <span class="carousel-control-next-icon"></span>--%>
+        <%--</a>--%>
 
     </div>
+    <a id="more-info" class="more-info" href="#content">DISCOVER MORE
+        <i class="material-icons">keyboard_arrow_down</i>
+    </a>
 
-    <a href="#content">DISCOVER MORE</a>
 </div>
 <div id="content" class="contentContainer">
-    <div class="img-news-container">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat fugit nulla totam? Ab aliquam aliquid consectetur debitis deserunt, dolore doloremque eligendi fugit illum inventore iusto libero omnis perferendis perspiciatis quaerat qui ratione recusandae, repellat sed sunt tenetur veritatis vero? Architecto asperiores cupiditate fugiat nemo nostrum tempora totam ullam! Dolorem?
+    <div class="tilte-container">
+        <h2>新闻中心</h2>
     </div>
-    <div class="word-news-container"></div>
+
+    <div class="news-container">
+
+    </div>
 </div>
 
-<div class="footer">
-    <img class="zhiyuan" src="../../resources/images/知园.jpg" alt="知园">
-    <div class="footer-wrapper">
-        <div class="footer logo">
-            <img src="../../resources/images/logo-2019%20(1).png" alt="校徽">
-        </div>
-        <div class="info">
-            <p>东北林业大学</p>
-            <p>软件工程专业 2019©</p>
-        </div>
-    </div>
-</div>
+<%@include file="/WEB-INF/jsp/common/footer.jsp"%>
 <script>
     $(function() {
         //设置下拉菜单动态变化
@@ -157,7 +153,24 @@
                 currentUl.css("display","none");
             }
         );
-    })
+
+
+    });
+
+    // $(function () {
+    //     $('#more-info').click(function () {
+    //         $('html','body').animate(
+    //             {
+    //                 scrollTop: $('#more-info').offset().top
+    //             },
+    //             {
+    //                 duration:500,
+    //                 easing:"swing"
+    //             }
+    //         );
+    //         return false;
+    //     });
+    // })
 </script>
 </body>
 </html>

@@ -9,7 +9,9 @@ body {
 }
 
 .header {
-    width: 100%;
+    height: 100vh;
+    box-shadow: 0 0px 30px #484848 inset;
+    position: relative;
 }
 
 /*logo和导航*/
@@ -118,9 +120,6 @@ body {
     border-top: 4px solid #00c292;
 }
 
-/*.dropdown:hover .dropdown-menu {*/
-/*    display: block;*/
-/*}*/
 
 .dropdown-menu a {
     display: block;
@@ -133,26 +132,51 @@ body {
 }
 
 /*轮播图样式*/
-.carousel-item {
-    width: 100vw;
-    height: 100vh;
+.carousel {
     overflow: hidden;
+    /*position: fixed;*/
+    /*z-index: -2000;*/
+    width: 100vw;
+}
+
+.carousel-item {
+    /*width: 100vw;*/
+    /*height: 100vh;*/
+    position: fixed;
+    z-index: -100;
 }
 
 .carousel-inner img {
     width: 100%;
 }
 
-/*指示符样式*/
-.carousel-indicators {
-    position: absolute;
-    bottom: 100px;
-    left: 30px;
+.carousel-control-next, .carousel-control-prev {
+    position: fixed;
 }
 
-.contentContainer {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    /*flex-direction: column;*/
+.carousel-control-next, .carousel-control-next {
+    position: fixed;
+}
+
+/*指示符样式*/
+.carousel-indicators {
+    position: fixed;
+    bottom: 100px;
+}
+
+/*锚点导航*/
+a.more-info {
+    text-align: center;
+    width: 100%;
+    display: block;
+    background: #00785a;
+    position: absolute;
+    bottom: 0;
+    font-size: 40px;
+    color: white;
+    box-shadow: 0 -25px 25px rgba(0,0,0,0.3);
+}
+
+i.material-icons {
+    font-size: 30px;
 }
