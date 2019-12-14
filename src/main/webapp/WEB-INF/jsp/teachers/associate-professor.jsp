@@ -9,8 +9,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>副教授-东北林业大学软件工程专业</title>
-    <link rel="stylesheet" href="../../resources/css/overall-style.css">
-    <link rel="stylesheet" href="../../resources/css/teachers-layout.css">
+    <link rel="stylesheet" href="../../../resources/css/overall-style.css">
+    <link rel="stylesheet" href="../../../resources/css/teachers-layout.css">
     <style>
         .associate-professor {
             position: relative;
@@ -32,7 +32,7 @@
                     <li>
                         <a href="/lili" target="_blank">
                             <div class="pic">
-                                <img src="../../resources/images/lili.jpg" alt="李莉">
+                                <img src="../../../resources/images/lili.jpg" alt="李莉">
                             </div>
                             <div class="teacher-title">
                                 <h4>李莉</h4>
@@ -43,7 +43,7 @@
                     <li>
                         <a href="/luosiqing" target="_blank">
                             <div class="pic">
-                                <img src="../../resources/images/luosiqing.png" alt="罗嗣卿">
+                                <img src="../../../resources/images/luosiqing.png" alt="罗嗣卿">
                             </div>
                             <div class="teacher-title">
                                 <h4>罗嗣卿</h4>
@@ -54,7 +54,7 @@
                     <li>
                         <a href="/liudan" target="_blank">
                             <div class="pic">
-                                <img src="../../resources/images/liudan.jpg" alt="刘丹">
+                                <img src="../../../resources/images/liudan.jpg" alt="刘丹">
                             </div>
                             <div class="teacher-title">
                                 <h4>刘丹</h4>
@@ -65,7 +65,7 @@
                     <li>
                         <a href="/zhangxiying" target="_blank">
                             <div class="pic">
-                                <img src="../../resources/images/zhangxiying.jpg" alt="张锡英">
+                                <img src="../../../resources/images/zhangxiying.jpg" alt="张锡英">
                             </div>
                             <div class="teacher-title">
                                 <h4>张锡英</h4>
@@ -76,7 +76,7 @@
                     <li>
                         <a href="/qiuzhaowen" target="_blank">
                             <div class="pic">
-                                <img src="../../resources/images/qiuzhaowen.jpg" alt="邱兆文">
+                                <img src="../../../resources/images/qiuzhaowen.jpg" alt="邱兆文">
                             </div>
                             <div class="teacher-title">
                                 <h4>邱兆文</h4>
@@ -87,7 +87,7 @@
                     <li>
                         <a href="/zhaoyuming" target="_blank">
                             <div class="pic">
-                                <img src="../../resources/images/zhaoyuming.jpg" alt="赵玉茗">
+                                <img src="../../../resources/images/zhaoyuming.jpg" alt="赵玉茗">
                             </div>
                             <div class="teacher-title">
                                 <h4>赵玉茗</h4>

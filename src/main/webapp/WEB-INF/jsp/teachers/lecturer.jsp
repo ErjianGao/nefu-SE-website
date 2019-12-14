@@ -9,8 +9,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>讲师-东北林业大学软件工程专业</title>
-    <link rel="stylesheet" href="../../resources/css/overall-style.css">
-    <link rel="stylesheet" href="../../resources/css/teachers-layout.css">
+    <link rel="stylesheet" href="../../../resources/css/overall-style.css">
+    <link rel="stylesheet" href="../../../resources/css/teachers-layout.css">
     <style>
         .lecturer {
             position: relative;
@@ -32,7 +32,7 @@
                     <li>
                         <a href="/wangbo" target="_blank">
                             <div class="pic">
-                                <img src="../../resources/images/wangbo.jpg" alt="王波">
+                                <img src="../../../resources/images/wangbo.jpg" alt="王波">
                             </div>
                             <div class="teacher-title">
                                 <h4>王波</h4>
@@ -43,7 +43,7 @@
                     <li>
                         <a href="/liyan" target="_blank">
                             <div class="pic">
-                                <img src="../../resources/images/liyan.jpg" alt="李琰">
+                                <img src="../../../resources/images/liyan.jpg" alt="李琰">
                             </div>
                             <div class="teacher-title">
                                 <h4>李琰</h4>
@@ -54,7 +54,7 @@
                     <li>
                         <a href="/shanying" target="_blank">
                             <div class="pic">
-                                <img src="../../resources/images/shanying.png" alt="单颖">
+                                <img src="../../../resources/images/shanying.png" alt="单颖">
                             </div>
                             <div class="teacher-title">
                                 <h4>单颖</h4>
@@ -65,7 +65,7 @@
                     <li>
                         <a href="/bianjilong" target="_blank">
                             <div class="pic">
-                                <img src="../../resources/images/bianjilong.jpg" alt="边继龙">
+                                <img src="../../../resources/images/bianjilong.jpg" alt="边继龙">
                             </div>
                             <div class="teacher-title">
                                 <h4>边继龙</h4>
