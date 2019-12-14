@@ -48,7 +48,7 @@ public class NewsServiceImpl implements NewsService {
 
     @Override
     public void updateNews(News news) {
-        String sql = "UPDATE news SET title=? and author=? and content=? WHERE id=?";
+        String sql = "UPDATE news SET title=?,author=?,content=? WHERE id=?";
         try(Connection conn = DataSourceUtils.getConnection();
             PreparedStatement st = conn.prepareStatement(sql)) {
             st.setString(1,news.getTitle());

@@ -47,7 +47,7 @@ public class ManagerServiceImpl implements ManagerService {
 
     @Override
     public void updateManager(Manager manager) {
-        String sql = "UPDATE manager SET username=? and password=? WHERE id=?";
+        String sql = "UPDATE manager SET username=?,password=? WHERE id=?";
         try(Connection conn = DataSourceUtils.getConnection();
             PreparedStatement st = conn.prepareStatement(sql)) {
             st.setString(1,manager.getUserName());
