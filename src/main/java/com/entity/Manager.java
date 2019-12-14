@@ -9,6 +9,9 @@ public class Manager {
     private String password;
     private Timestamp insertTime;
 
+    public Manager() {
+    }
+
     public Manager(int id, String userName, String password, Timestamp insertTime) {
         this.id = id;
         this.userName = userName;

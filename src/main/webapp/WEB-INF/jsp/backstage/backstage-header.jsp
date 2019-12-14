@@ -31,6 +31,15 @@
         padding-left: 130px;
     }
 
+    .dropdown.logout {
+        margin-left: auto;
+    }
+
+    .dropdown.logout>a{
+        width: 120px;
+        text-align: center;
+    }
+
     .dropdown>a{
         display: block;
         text-decoration: none;
@@ -127,6 +136,9 @@
                 </div>
                 <div class="dropdown">
                     <a href="/backstage" target="_blank">管理员入口</a>
+                </div>
+                <div class="dropdown logout">
+                    <a href="/logout" target="_blank">退出</a>
                 </div>
             </div>
         </div>
