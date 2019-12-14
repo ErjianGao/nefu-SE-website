@@ -133,15 +133,21 @@ body {
 }
 
 /*轮播图样式*/
+.carousel-item {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
 .carousel-inner img {
     width: 100%;
-    height: 100%;
 }
 
 /*指示符样式*/
 .carousel-indicators {
     position: absolute;
-    bottom: 200px;
+    bottom: 100px;
+    left: 30px;
 }
 
 .contentContainer {
@@ -149,18 +155,4 @@ body {
     display: flex;
     justify-content: center;
     /*flex-direction: column;*/
-}
-/*图像新闻*/
-.img-news-container {
-    align-content: center;
-    background: red;
-    width: 1200px;
-    height: 500px;
-    position: absolute;
-    top: -100px;
-}
-
-/*文字新闻*/
-.word-news-container {
-    height: 1000px;
 }

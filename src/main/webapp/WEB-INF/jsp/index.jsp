@@ -9,7 +9,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>东北林业大学软件工程专业</title>
-    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script src="../../resources/js/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
     <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
@@ -28,7 +28,7 @@
 
         }
 
-        ol, ul {
+        ol, ul, p {
             margin-bottom: 0;
         }
     </style>
@@ -56,17 +56,17 @@
             <!--主导航-->
             <div class="mainnav">
                 <div class="dropdown">
-                    <a href="">专业介绍</a>
+                    <a href="/major-introduction">专业介绍</a>
                 </div>
                 <div class="dropdown">
                     <a href="" target="_blank">新闻公告</a>
                 </div>
                 <div class="dropdown">
-                    <a href="" target="_blank">教师队伍</a>
+                    <a href="/professor" target="_blank">教师队伍</a>
                     <ul class="dropdown-menu">
-                        <li><a href="">教授</a></li>
-                        <li><a href="">副教授</a></li>
-                        <li><a href="">讲师</a></li>
+                        <li><a href="/professor">教授</a></li>
+                        <li><a href="/associate-professor">副教授</a></li>
+                        <li><a href="/lecturer">讲师</a></li>
                     </ul>
                 </div>
                 <div class="dropdown">
@@ -80,7 +80,7 @@
                     <a href="" target="_blank">就业指南</a>
                 </div>
                 <div class="dropdown">
-                    <a href="/login" target="_blank">管理员登录</a>
+                    <a href="/backstage" target="_blank">管理员入口</a>
                 </div>
             </div>
         </div>
@@ -100,7 +100,7 @@
         <!-- 轮播图片 -->
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="../../resources/images/成栋楼.jpeg" alt="成栋">
+                <img src="../../resources/images/成栋楼.jpg" alt="成栋">
             </div>
             <div class="carousel-item ">
                 <img src="../../resources/images/夜景.jpg" alt="夜景">
@@ -122,8 +122,10 @@
         </a>
 
     </div>
+
+    <a href="#content">DISCOVER MORE</a>
 </div>
-<div class="contentContainer">
+<div id="content" class="contentContainer">
     <div class="img-news-container">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat fugit nulla totam? Ab aliquam aliquid consectetur debitis deserunt, dolore doloremque eligendi fugit illum inventore iusto libero omnis perferendis perspiciatis quaerat qui ratione recusandae, repellat sed sunt tenetur veritatis vero? Architecto asperiores cupiditate fugiat nemo nostrum tempora totam ullam! Dolorem?
     </div>
@@ -132,12 +134,14 @@
 
 <div class="footer">
     <img class="zhiyuan" src="../../resources/images/知园.jpg" alt="知园">
-    <div class="footer logo">
-        <img src="../../resources/images/logo-2019%20(1).png" alt="校徽">
-    </div>
-    <div class="info">
-        <p>东北林业大学</p>
-        <p>软件工程专业 2019©</p>
+    <div class="footer-wrapper">
+        <div class="footer logo">
+            <img src="../../resources/images/logo-2019%20(1).png" alt="校徽">
+        </div>
+        <div class="info">
+            <p>东北林业大学</p>
+            <p>软件工程专业 2019©</p>
+        </div>
     </div>
 </div>
 <script>
