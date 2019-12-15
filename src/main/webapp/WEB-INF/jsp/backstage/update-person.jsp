@@ -83,11 +83,11 @@
                         </tr>
                         <tr>
                             <td>新密码</td>
-                            <td><input type="password" name="pwd" autocomplete="new-password"></td>
+                            <td><input type="password" name="pwd" value="${manager.password}"></td>
                         </tr>
                         <tr>
                             <td>请再次输入密码</td>
-                            <td><input type="password" name="pwd-again" autocomplete="new-password"></td>
+                            <td><input type="password" name="pwd-again" value="${manager.password}"></td>
                         </tr>
                     </table>
                     <button type="submit"><a>提交</a></button>

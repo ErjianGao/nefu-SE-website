@@ -35,7 +35,6 @@ public class UpdatePersonServlet extends HttpServlet {
 
         if(!password.equals(passwordAgain)) {
             req.setAttribute("password-error","两次输入的密码不同");
-            req.getRequestDispatcher("/WEB-INF/jsp/backstage/person-manage.jsp").forward(req,resp);
             url = "/update-person";
         }
 
