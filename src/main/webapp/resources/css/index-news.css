@@ -4,6 +4,7 @@
     box-shadow: 0 0 70px rgba(0,0,0,0.8);
     background: #f6f6f6;
     color: black;
+    background: url("../../resources/images/xs_bg-2019.png");
 }
 
 .contentContainer .title-container {
@@ -64,7 +65,7 @@
     transition-duration: 250ms;
 }
 
-.news-list li p {
+.news-list li p.time {
     line-height: 30px;
     font-style: italic;
     font-size: 16px;
