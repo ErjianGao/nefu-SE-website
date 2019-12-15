@@ -204,12 +204,13 @@
         </div>
     </div>
 
-    <div class="title-container">
-        <h2>
-            <i class="material-icons">keyboard_arrow_right</i>
-            <a href="/news-list">公告通知</a>
-        </h2>
-    </div>
+    <%--此部分尚未完工--%>
+    <%--<div class="title-container">--%>
+    <%--    <h2>--%>
+    <%--        <i class="material-icons">keyboard_arrow_right</i>--%>
+    <%--        <a href="/news-list">公告通知</a>--%>
+    <%--    </h2>--%>
+    <%--</div>--%>
 </div>
 
 <%@include file="/WEB-INF/jsp/common/footer.jsp"%>
