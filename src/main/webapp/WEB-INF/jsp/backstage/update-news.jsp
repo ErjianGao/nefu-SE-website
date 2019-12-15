@@ -25,8 +25,8 @@
             color: #009e78;
             font-size: 1.8em;
             font-weight: bold;
+            margin-top: 20px;
             padding: 15px 0;
-            margin-top: 0;
         }
 
         thead th {
@@ -34,7 +34,8 @@
         }
 
         tbody td {
-            text-align: center;
+            text-align: left;
+            padding: 5px;
         }
 
         table {
@@ -42,24 +43,16 @@
             font-size: 18px;
             color: rgb(0, 112, 192);
             margin: 30px;
-            border-collapse: collapse;
         }
 
         tr {
             height: 40px;
         }
 
-        tbody td.operation:hover {
-            cursor: default;
-        }
-
         button {
             outline: none;
+            margin-left: 20px;
             border: none;
-        }
-
-        tbody button {
-            margin: 5px 5px;
         }
 
         button a {
@@ -72,12 +65,46 @@
             border-radius: 5px;
         }
 
+        .button-group {
+            display: flex;
+            margin: 0 auto;
+            justify-content: center;
+        }
+
         a.delete {
             background-color: #f44336;
         }
 
         button:hover {
             cursor: pointer;
+        }
+
+        input {
+            font-size: 16px;
+            outline: none;
+            border: 1.6px solid #009e78;
+            padding: 8px;
+            border-radius: 8px;
+        }
+
+        input.title {
+            width: 100%;
+            padding: 10px;
+        }
+
+        input.author {
+            width: 100%;
+            padding: 10px;
+        }
+
+        textarea {
+            font-size: 16px;
+            width: 100%;
+            height: 500px;
+            outline: none;
+            border: 1.6px solid #009e78;
+            padding: 8px;
+            border-radius: 8px;
         }
     </style>
 </head>
@@ -93,19 +120,24 @@
                     <table>
                         <tr>
                             <td>标题</td>
-                            <td><input type="text" name="title" value="${news.title}"></td>
+                            <td><input class="title" type="text" name="title" value="${news.title}"></td>
                         </tr>
                         <tr>
                             <td>作者</td>
-                            <td><input type="text" name="author" value="${news.author}"></td>
+                            <td><input class="author" type="text" name="author" value="${news.author}"></td>
                         </tr>
                         <tr>
                             <td>内容</td>
-                            <td><textarea name="content" cols="30" rows="10">${news.content}</textarea></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><textarea class="news-content" name="content">${news.content}</textarea></td>
                         </tr>
                     </table>
-                    <button type="submit"><a>提交</a></button>
-                    <button type="button"><a href="/news-manage">返回</a></button>
+                    <div class="button-group">
+                        <button type="submit"><a>提交</a></button>
+                        <button type="button"><a href="/news-manage">返回</a></button>
+                    </div>
+
                 </form>
             </article>
         </div>

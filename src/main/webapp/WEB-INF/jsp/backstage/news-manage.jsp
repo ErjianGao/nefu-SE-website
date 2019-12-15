@@ -49,12 +49,17 @@
             border-collapse: collapse;
         }
 
+        th {
+            padding: 5px;
+        }
+
         td {
             min-width: 50px;
         }
 
         tr {
-            height: 40px;
+            min-height: 40px;
+            border-bottom: 1.2px solid #cccccc;
         }
 
         tbody tr:hover {

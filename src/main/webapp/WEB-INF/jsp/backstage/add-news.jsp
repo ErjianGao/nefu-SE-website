@@ -34,7 +34,8 @@
         }
 
         tbody td {
-            text-align: center;
+            text-align: left;
+            padding: 5px;
         }
 
         table {
@@ -55,6 +56,7 @@
         }
 
         button a {
+            display: block;
             text-decoration: none;
             background-color: #4CAF50;
             padding: 10px 20px;
@@ -63,12 +65,46 @@
             border-radius: 5px;
         }
 
+        .button-group {
+            display: flex;
+            margin: 0 auto;
+            justify-content: center;
+        }
+
         a.delete {
             background-color: #f44336;
         }
 
         button:hover {
             cursor: pointer;
+        }
+
+        input {
+            font-size: 16px;
+            outline: none;
+            border: 1.6px solid #009e78;
+            padding: 8px;
+            border-radius: 8px;
+        }
+
+        input.title {
+            width: 100%;
+            padding: 10px;
+        }
+
+        input.author {
+            width: 100%;
+            padding: 10px;
+        }
+
+        textarea {
+            font-size: 16px;
+            width: 100%;
+            height: 500px;
+            outline: none;
+            border: 1.6px solid #009e78;
+            padding: 8px;
+            border-radius: 8px;
         }
     </style>
 </head>
@@ -83,15 +119,18 @@
                     <table>
                         <tr>
                             <td>标题</td>
-                            <td><input type="text" name="title"></td>
+                            <td><input class="title" type="text" name="title"></td>
                         </tr>
                         <tr>
                             <td>作者</td>
-                            <td><input type="text" name="author"></td>
+                            <td><input class="author" type="text" name="author"></td>
                         </tr>
                         <tr>
                             <td>内容</td>
-                            <td><textarea name="content" cols="30" rows="10"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><textarea class="news-content" name="content"></textarea></td>
+
                         </tr>
                     </table>
                     <div class="button-group">
