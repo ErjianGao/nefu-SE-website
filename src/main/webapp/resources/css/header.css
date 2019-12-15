@@ -133,37 +133,37 @@ body {
 }
 
 /*轮播图样式*/
-.carousel {
+.header .carousel {
     overflow: hidden;
     /*position: fixed;*/
     /*z-index: -2000;*/
     width: 100vw;
 }
 
-.carousel-item {
+.header .carousel-item {
     /*width: 100vw;*/
     /*height: 100vh;*/
     position: fixed;
     z-index: -100;
 }
 
-.carousel-inner img {
+.header .carousel-inner img {
     width: 100%;
 }
 
-.carousel-control-next, .carousel-control-prev {
-    position: fixed;
-}
+/*.carousel-control-next, .carousel-control-prev {*/
+/*    position: fixed;*/
+/*}*/
 
-.carousel-control-next, .carousel-control-next {
-    position: fixed;
-}
+/*.carousel-control-next, .carousel-control-next {*/
+/*    position: fixed;*/
+/*}*/
 
 /*指示符样式*/
-.carousel-indicators {
-    position: fixed;
-    bottom: 100px;
-}
+/*.carousel-indicators {*/
+/*    position: fixed;*/
+/*    bottom: 100px;*/
+/*}*/
 
 /*锚点导航*/
 a.more-info {

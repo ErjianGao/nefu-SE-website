@@ -19,6 +19,10 @@
             color: #009e78 !important;
         }
 
+        article {
+            margin-right: 0;
+        }
+
         article h2 {
             width: 100%;
             text-align: left;
@@ -41,8 +45,12 @@
             width: 100%;
             font-size: 18px;
             color: rgb(0, 112, 192);
-            margin: 30px;
+            margin-top: 30px;
             border-collapse: collapse;
+        }
+
+        td {
+            min-width: 50px;
         }
 
         tr {
@@ -52,6 +60,11 @@
         tbody tr:hover {
             background-color: #e8e8e8;
             cursor: pointer;
+        }
+
+        tbody td.operation {
+            display: flex;
+            flex-direction: row;
         }
 
         tbody td.operation:hover {
@@ -75,6 +88,11 @@
             color: white;
             font-size: 18px;
             border-radius: 5px;
+        }
+
+        tbody td.operation a {
+            width: 90px;
+            height: 50px;
         }
 
         a.delete {

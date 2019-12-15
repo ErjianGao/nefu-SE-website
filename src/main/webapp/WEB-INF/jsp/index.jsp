@@ -33,6 +33,10 @@
         ol, ul, p {
             margin-bottom: 0;
         }
+
+        a {
+            text-decoration: black;
+        }
     </style>
 </head>
 <body>
@@ -130,12 +134,59 @@
 
 </div>
 <div id="content" class="contentContainer">
-    <div class="tilte-container">
-        <h2>新闻中心</h2>
+    <div class="title-container">
+        <h2><a href="/news-list">新闻中心</a></h2>
     </div>
 
     <div class="news-container">
+        <!--轮播图-->
+        <div class="slide-container">
+            <div id="news-demo" class="carousel slide" data-ride="carousel">
 
+                <!-- 指示符 -->
+                <ul class="carousel-indicators">
+                    <li data-target="#news-demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#news-demo" data-slide-to="1"></li>
+                    <li data-target="#news-demo" data-slide-to="2"></li>
+                    <%--<li data-target="#news-demo" data-slide-to="3"></li>--%>
+                </ul>
+
+                <!-- 轮播图片 -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="/news-info?news-id=7"><img src="../../resources/images/icpc.jpg" alt="icpc"></a>
+                    </div>
+                    <div class="carousel-item ">
+                        <a href="/news-info?news-id=6"><img src="../../resources/images/ccpc.jpg" alt="ccpc"></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="/news-info?news-id=8"><img src="../../resources/images/软件实习基地.jpg" alt="实习基地授牌"></a>
+                    </div>
+                </div>
+
+                <!-- 左右切换按钮 -->
+                <a class="carousel-control-prev" href="#news-demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#news-demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+
+            </div>
+        </div>
+        <div class="news-list">
+            <ul>
+                <c:set var="flag" value="true" />
+                <c:forEach items="${newsList}" var="news" varStatus="index">
+                    <c:if test="${index.count < 6}">
+                        <li>
+                            <a href="/news-info?news-id=${news.id}">${news.title}</a>
+                            <p><fmt:formatDate value="${news.insertTime}" pattern="yyyy-MM-dd"/></p>
+                        </li>
+                    </c:if>
+                </c:forEach>
+            </ul>
+        </div>
     </div>
 </div>
 
@@ -157,6 +208,7 @@
 
     });
 
+    //实现下拉缓冲
     // $(function () {
     //     $('#more-info').click(function () {
     //         $('html','body').animate(
