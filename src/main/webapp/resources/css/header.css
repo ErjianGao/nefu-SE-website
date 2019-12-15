@@ -167,6 +167,7 @@ body {
 
 /*锚点导航*/
 a.more-info {
+    padding: 2px;
     text-align: center;
     width: 100%;
     display: block;
