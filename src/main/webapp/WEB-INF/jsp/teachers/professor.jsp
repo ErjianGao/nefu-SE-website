@@ -36,7 +36,7 @@
                                 <img src="../../resources/images/sujianmin.jpg" alt="苏建民">
                             </div>
                             <div class="teacher-title">
-                                <h4>苏建民</h4>
+                                <h4>苏健民</h4>
                                 <p>苏健民，教授，硕士，硕士生导师，软件工程一级学科带头人...</p>
                             </div>
                         </a>

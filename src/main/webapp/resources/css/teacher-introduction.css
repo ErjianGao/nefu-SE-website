@@ -1,0 +1,24 @@
+.person-info {
+    display: flex;
+    
+}
+
+.person-info img {
+    width: 180px;
+    height: 100%;
+    margin: 30px;
+}
+
+.person-info .brief-info h2.name {
+    background: #00785a;
+    color: white;
+    width: 200px;
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+.person-info .brief-info p {
+    font-size: 18px;
+    line-height: 22px;
+}
