@@ -89,6 +89,7 @@ article h3 {
 }
 
 article p {
+    text-align: justify;
     margin-top: 15px;
     margin-bottom: 15px;
     padding: 0;

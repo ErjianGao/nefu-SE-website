@@ -18,6 +18,11 @@
     color: #333333;
 }
 
+.contentContainer .title-container h2 i {
+    font-size: 30px;
+}
+
+
 .news-container {
     display: flex;
     justify-content: center;
@@ -50,6 +55,7 @@
 }
 
 .news-list li {
+    border-left: 2px solid #00785a;
     margin-bottom: 10px;
     list-style: none;
     text-align: left;

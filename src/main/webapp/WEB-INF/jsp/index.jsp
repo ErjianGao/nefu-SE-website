@@ -135,7 +135,10 @@
 </div>
 <div id="content" class="contentContainer">
     <div class="title-container">
-        <h2><a href="/news-list">新闻中心</a></h2>
+        <h2>
+            <i class="material-icons">keyboard_arrow_right</i>
+            <a href="/news-list">新闻中心</a>
+        </h2>
     </div>
 
     <div class="news-container">
@@ -176,7 +179,6 @@
         </div>
         <div class="news-list">
             <ul>
-                <c:set var="flag" value="true" />
                 <c:forEach items="${newsList}" var="news" varStatus="index">
                     <c:if test="${index.count < 6}">
                         <li>
@@ -187,6 +189,13 @@
                 </c:forEach>
             </ul>
         </div>
+    </div>
+
+    <div class="title-container">
+        <h2>
+            <i class="material-icons">keyboard_arrow_right</i>
+            <a href="/news-list">公告通知</a>
+        </h2>
     </div>
 </div>
 
