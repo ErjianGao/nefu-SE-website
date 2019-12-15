@@ -23,7 +23,7 @@
             text-align: center;
             font-size: 40px;
             color: #00785a;
-            margin: 0 20px 20px 20px;
+            margin: 20px 20px 20px 20px;
         }
 
         article h2 {
