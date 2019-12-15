@@ -37,12 +37,23 @@
         a {
             text-decoration: black;
         }
+
+        img.github {
+            border-radius: 50%;
+            width: 50px;
+            position: fixed;
+            top: 160px;
+            left: 67px;
+            z-index: 2000;
+        }
     </style>
 </head>
 <body>
 
 <!--顶部-->
 <div class="header">
+    <a href="https://github.com/ErjianGao/nefu-SE-website" target="_blank"><img class="github" src="../../resources/images/github-new-icon.jpg" alt="github"></a>
+
     <!--logo 与 导航-->
     <div class="navwrapper">
         <!--logo-->
@@ -182,8 +193,10 @@
                 <c:forEach items="${newsList}" var="news" varStatus="index">
                     <c:if test="${index.count < 6}">
                         <li>
-                            <a href="/news-info?news-id=${news.id}">${news.title}</a>
-                            <p><fmt:formatDate value="${news.insertTime}" pattern="yyyy-MM-dd"/></p>
+                            <a href="/news-info?news-id=${news.id}">
+                                <p>${news.title}</p>
+                                <p class="time"><fmt:formatDate value="${news.insertTime}" pattern="yyyy-MM-dd"/></p>
+                            </a>
                         </li>
                     </c:if>
                 </c:forEach>
@@ -213,8 +226,6 @@
                 currentUl.css("display","none");
             }
         );
-
-
     });
 
     //实现下拉缓冲
