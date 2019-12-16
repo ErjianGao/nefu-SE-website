@@ -1,4 +1,8 @@
-<%--
+<%@ page pageEncoding="UTF-8" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<!doctype html>
+<!--
 ----------Dragon be here!----------
        ┌─┐      ┌─┐
      ┌─┘─┴──────┘─┴─┐
@@ -18,11 +22,7 @@
           │ ┤ ┤   │ ┤ ┤
           └─┴─┘   └─┴─┘
 ─────────────神兽出没───────────────
---%>
-<%@ page pageEncoding="UTF-8" %>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
-<!doctype html>
+-->
 <html lang="cn">
 <head>
     <meta charset="UTF-8">
