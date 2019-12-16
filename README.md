@@ -17,3 +17,10 @@
 4. 完成首页导航栏随页面滚动动态固定
 5. 完成富文本编辑器或markdown编辑器嵌入
 6. 基于docker容器技术部署于腾讯云服务器
+
+此项目主要参考了以下网站的设计，在此表示感谢
+
+- [北京大学计算机科学技术系](https://cs.pku.edu.cn)
+- [清华大学](https://www.tsinghua.edu.cn/publish/thu2018/index.html)
+- [东北林业大学](https://www.nefu.edu.cn)
+- [Stanford University](https://www.stanford.edu)
