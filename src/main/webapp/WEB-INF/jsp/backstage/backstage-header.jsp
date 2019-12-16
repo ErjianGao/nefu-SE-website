@@ -99,10 +99,10 @@
 <header class="header">
     <div class="navwrapper">
         <!--logo-->
-        <div class="logo">
-            <img src="../../resources/images/东北林业大学横向.png" alt="东北林业大学信息学院">
-            <img class="solfware-img" src="../../resources/images/软件工程logo.PNG" alt="软件工程">
-        </div>
+        <%--<div class="logo">--%>
+        <%--    <img src="../../resources/images/东北林业大学横向.png" alt="东北林业大学信息学院">--%>
+        <%--    <img class="solfware-img" src="../../resources/images/软件工程logo.PNG" alt="软件工程">--%>
+        <%--</div>--%>
         <!--导航-->
         <div class="nav">
             <!--主导航-->
