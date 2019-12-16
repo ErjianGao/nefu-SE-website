@@ -1,4 +1,4 @@
-package com.Filter;
+package com.filter;
 
 import com.entity.Manager;
 
