@@ -104,7 +104,7 @@
 </head>
 <body>
 <div class="container">
-    <%@include file="/WEB-INF/jsp/backstage/backstage-header.jsp"%>
+    <%@include file="/WEB-INF/jsp/common/header.jsp"%>
     <div class="content">
         <div class="subpage">
             <%@include file="/WEB-INF/jsp/common/news-sidebar.jsp"%>
